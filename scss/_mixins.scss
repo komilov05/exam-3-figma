@@ -1,0 +1,21 @@
+@mixin buttons($primary,$secondary) {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    @if $primary == true {  
+        color: #FFFFFF;
+        padding: 8px 20px;
+        background: #5D5DFF;
+        box-shadow: 0px 1px 3px rgba(25, 32, 44, 0.04);
+    }
+    @else if $secondary == true {
+        color: #C5D2DC;
+        background: #33363A;
+        box-shadow: 0px 10px 15px -3px rgba(21, 23, 25, 0.16);
+    }
+    
+}

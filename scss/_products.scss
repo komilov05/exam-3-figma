@@ -1,0 +1,99 @@
+.products{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    &-article{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+        &-subtitle-1{
+            padding: 4px 8px;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 22px;
+            color: #36A269;
+            background: #C6F6D5;
+            box-shadow: 0px 1px 3px rgba(25, 32, 44, 0.04);
+            border-radius: 15px;
+        }
+
+        &-title{
+            font-weight: 800;
+            font-size: 40px;
+            line-height: 50px;
+            text-align: center;
+            letter-spacing: -0.5px;
+            color: #D9E3EA;
+        }
+
+        &-subtitle-2{
+            width: 700px;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            text-align: center;
+            letter-spacing: -0.25px;
+            color: #9BA9B4;
+        }
+    }
+
+    &-actions{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 80px;
+
+        
+        &-left{
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            justify-content: center;
+            width: 540px;
+            gap: 9px;
+            padding: 0 0 0 54px;
+            margin-right: 24px;
+
+            &-subtitle-1{
+                font-family: 'Architects Daughter', cursive;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+                letter-spacing: 0.25px;
+                color: #5D5DFF;
+            }
+
+            &-title{
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 42px;
+                letter-spacing: -0.25px;
+                color: #D9E3EA;
+            }
+
+            &-subtitle-2{
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+                letter-spacing: -0.25px;
+                color: #9BA9B4;
+            }
+            &-accept{
+                display: flex;
+                flex-direction: column;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 27px;
+                letter-spacing: -0.25px;
+                color: #9BA9B4;
+                gap: 8px;
+            }
+        }
+    }
+
+}
